@@ -28,7 +28,7 @@ const Home = () => {
   },[])
 
   return (
-    <div>
+    <div className="mb-12">
       {
         loading ? <Spinner />  :
         posts.length > 0 ? 
